@@ -143,3 +143,7 @@ body {
   .nav-img:hover{
     filter: drop-shadow(0 0 2px #808080) 
   }
+
+  .list-indent{
+    margin-left: 10px;
+  }
