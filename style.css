@@ -1,6 +1,7 @@
 /* 
     make some fun styles here for designing your web page portfolio steve!
 */
+/*basic icon resizing*/
 img {
     width: 50px;
     height: 50px;
@@ -8,13 +9,13 @@ img {
 
 body {
     margin: 0;
-    background-color: #d3d3d3;
+    background-color: #d3d3d3;/*basic background color*/
   }
-  
+ 
   h1, h2, h3, p {
     color: #8b0000;
     font-size: 14px;
-  }
+  }/*error styling for un styled content*/
 
   header div h1 a{
     color: #7B3B3B;
@@ -22,8 +23,14 @@ body {
   }
 
   header div h1 a:hover,
-  footer div a:hover {
+  footer div a:hover,
+  main div a:hover {
     color: #668284
+  }
+
+  main div a{
+    text-decoration: none;
+    color: #228b22;
   }
 
   main div header h2 {
@@ -117,7 +124,7 @@ body {
   footer nav p {
     color: #668284;
   }
-
+/*image specific classes*/
   .content-img{
     display: block;
     margin-left: auto;
@@ -130,4 +137,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .link-img:hover,
+  .nav-img:hover{
+    filter: drop-shadow(0 0 2px #808080) 
   }
